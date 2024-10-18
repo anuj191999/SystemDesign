@@ -1,0 +1,227 @@
+  SOLID
+
+  S- Single Reponsibility
+  O- Open for extend but closed for modification
+  L- Liskov Subtitution 
+  I- Interface Segmented Priciple
+  D- Dependency Inversion Priciple
+
+  =========================Single Reponsibility Principle======================================
+One Class Should hold only one reponsibility but in example you can one class hold multiple reponsibility
+so this code is violating single reponsibility Priciple.
+
+Class Marker{
+    private int price;
+    private String name;
+    Marker(price,name)
+    {
+        this.price=price;
+        this.name=name;
+    }
+}
+
+Class Invoice
+{
+    private Maker marker;
+    private int quantity;
+    Invoice(Marker marker,int quantity)
+    {
+        this.marker=marker;
+        this.quantity=quantity;
+    }
+
+    public int calculate(){
+        int price=((this.marker.price)*this.quantity);
+        return price;
+    }
+
+    public void saveToDb()
+    {
+        //DB logic;
+    }
+
+    public void printInvoice()
+    {
+        // Printing Logic;
+    }
+
+};
+
+As you can see above class "Invoice" hold three reponsibility one is calculating price , save infomation and
+printinglogic. that's why it's violating Priciple.
+
+*** Solution***
+Divide the reponsibility.
+
+Class Invoice{
+   private Maker marker;
+    private int quantity;
+    Invoice(Marker marker,int quantity)
+    {
+        this.marker=marker;
+        this.quantity=quantity;
+    }
+}
+
+Class DatabaseDao{
+    private Invoice invoice;
+
+    DatabaseDao(Invoice)
+    {
+        this.invoice=invoice;
+    }
+
+    public void saveToDB()
+    {
+        // DB logic
+    }  
+}
+
+Class InvoicePrinter{
+    private Invoice invoice;
+    InvoicePrinter(Invoice invoice)
+    {
+        this.Invoice=invoice;
+    }
+
+    public void printInvoice()
+    {
+        // Printing Logic
+    }
+}
+Now you can see one class hold only one responsbility.
+
+==========Open/Closed Priciple==============================
+
+Suppose this is our code which is in live 
+
+Class InvoiceDao{
+    Invoice invoice;
+
+    InvoiceDao(Invoice invoice)
+    {
+        this.invoice=invoice;
+    }
+
+    public void saveToDb()
+    {
+        // Db logic are here.
+    }
+}
+
+Now Suppose our Requirment Comes to save the invoice also in file and MongoDB.
+Class InvoiceDao{
+    Invoice invoice;
+
+    InvoiceDao(Invoice invoice)
+    {
+        this.invoice=invoice;
+    }
+
+    public void saveToDb()
+    {
+        // Db logic are here.
+    }
+    public void saveToFile()
+    {
+        // Db logic are here.
+    }
+}
+
+This scenario is violating is this Priciple and becuase in case 100 Requirment comed then will modifie 100 times this class.
+
+Solution : what we can do.
+
+interface InvoiceDao{
+    void saveInvoice(Invoice invoice);
+}
+
+if you want to save in file 
+
+Class FileInvoiceDao implmentes InvoiceDao{
+     
+    @Override 
+    saveInvoice(Invoice invoice)
+    {
+        // Logic.
+    }
+}
+
+Class SqlInvoiceDao implmentes InvoiceDao{
+     
+    @Override 
+    saveInvoice(Invoice invoice)
+    {
+        // Logic.
+    }
+}
+
+==============Liskov Subtitution Principle===========================================
+
+If Class B is subtype of Class A then we should be able to replace object of A with object of B without 
+breaking of the behaiour of the program.
+
+In another word we can say that -> subclass should extend the capability of parent class not narrow it down,
+
+Example 
+
+interface Bike{
+    void turnOnEngine();
+    void accelerate();
+}
+
+class MotorCycle implmente Bike{
+    boolean isEngineOn;
+
+    @Override
+    void turnOnEngine()
+    {
+        // some code;
+        isEngineOn=true;
+    }
+
+    @Override
+    void accelerate()
+    {
+        // Increase Speed Logic
+        Speed+=10;
+    }
+};
+
+Class Bicycle implmente Bike{
+
+    @Override
+    void turnOnEngine()
+    {
+        throw new Assertion Error("there is no Engine");
+    }
+
+    @Override
+    void accelerate()
+    {
+        // speed logic.
+    }
+}
+
+Here, we can see Bicycle class reduce the functionality of parent class 
+
+this is code is in live
+
+Class ClientCode{
+
+    private Bike bike;
+
+    ClientCode(Bike bike)
+    {
+        this.bike=bike;
+    }
+
+    // some of and functionality
+
+    this.bike.turnOnEngine();
+}
+
+so here in line no 221 client code will be break if some one pass the object of Bicycle.
+
+
+
