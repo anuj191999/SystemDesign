@@ -1,5 +1,6 @@
 package observable.amazonnotifyme.observerUser;
 
+import observable.amazonnotifyme.Observable;
 import observable.amazonnotifyme.Observer;
 public class User implements Observer {
     private int newStock;
@@ -13,6 +14,17 @@ public class User implements Observer {
         this.newStock=newStock;
         display();
     }
+
+    @Override
+    public void registerObserver(Observable observable) {
+        observable.addObserver(this);
+    }
+
+    @Override
+    public void unregisterObserver(Observable observable) {
+        observable.removeObserver(this);
+    }
+
 
     private void display() {
         System.out.println(this.name+": New Stock: "+newStock);

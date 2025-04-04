@@ -12,9 +12,10 @@ public class Main {
 
         Iphone iphoneObservable=new Iphone();
 
-        iphoneObservable.addObserver(user1);
-        iphoneObservable.addObserver(user2);
-        iphoneObservable.addObserver(user3);
+
+        user1.registerObserver(iphoneObservable);
+        user2.registerObserver(iphoneObservable);
+        user3.registerObserver(iphoneObservable);
 
         iphoneObservable.setData(10);
 
