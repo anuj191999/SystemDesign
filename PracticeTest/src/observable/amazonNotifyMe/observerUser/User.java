@@ -1,7 +1,7 @@
-package observable.amazonnotifyme.observerUser;
+package observable.amazonNotifyMe.observerUser;
 
-import observable.amazonnotifyme.Observable;
-import observable.amazonnotifyme.Observer;
+import observable.amazonNotifyMe.Observable;
+import observable.amazonNotifyMe.Observer;
 public class User implements Observer {
     private int newStock;
     private String name;

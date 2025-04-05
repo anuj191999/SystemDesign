@@ -1,7 +1,7 @@
-package observable.amazonnotifyme.itemObservable;
+package observable.amazonNotifyMe.itemObservable;
 
-import observable.amazonnotifyme.Observable;
-import observable.amazonnotifyme.Observer;
+import observable.amazonNotifyMe.Observable;
+import observable.amazonNotifyMe.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

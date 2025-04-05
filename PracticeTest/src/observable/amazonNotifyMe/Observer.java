@@ -1,4 +1,4 @@
-package observable.amazonnotifyme;
+package observable.amazonNotifyMe;
 
 public interface Observer {
     void update(int newStock);

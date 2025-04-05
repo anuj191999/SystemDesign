@@ -1,7 +1,7 @@
-package observable.amazonnotifyme;
+package observable.amazonNotifyMe;
 
-import observable.amazonnotifyme.itemObservable.Iphone;
-import observable.amazonnotifyme.observerUser.User;
+import observable.amazonNotifyMe.itemObservable.Iphone;
+import observable.amazonNotifyMe.observerUser.User;
 
 public class Main {
     public static void main(String[] args) {

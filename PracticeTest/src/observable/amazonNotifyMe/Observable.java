@@ -1,4 +1,4 @@
-package observable.amazonnotifyme;
+package observable.amazonNotifyMe;
 public interface Observable {
      void addObserver(Observer observer);
      void removeObserver(Observer observer);
