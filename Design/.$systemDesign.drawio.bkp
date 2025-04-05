@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2025-04-03T19:53:30.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="3ZUzLT66jm8yPqdaFt9I" version="24.5.3" type="device" pages="2">
+<mxfile host="Electron" modified="2024-11-03T19:03:56.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="qsTMeS0Sdc474EXC78Ri" version="24.5.3" type="device">
   <diagram name="JIRA-Board" id="1Z0g-1KZ0-EMyHoFu2Hd">
     <mxGraphModel dx="1036" dy="2806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,14 +158,6 @@
         <mxCell id="Ggmb4g24JVobU0Px0jI8-9" value="Task Forge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="795" y="-370" width="80" height="30" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Sw_8w4otXcI63Lc46Eo2" name="Page-2">
-    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
