@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2026-06-15T13:14:41.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="tkzy37c4Of8VlOonde4d" version="24.5.3" type="device" pages="3">
+<mxfile host="Electron" modified="2026-06-18T12:20:07.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="JAvaV5shBjr0bv8RejAj" version="24.5.3" type="device" pages="4">
   <diagram name="Page-1" id="1Z0g-1KZ0-EMyHoFu2Hd">
     <mxGraphModel dx="1900" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -553,6 +553,110 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HtEG8ipy9wtG9QvG_bRX" name="Page-4">
+    <mxGraphModel dx="1900" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-1" value="Praking&amp;nbsp; lot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="78" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-2" value="Fucntional Requirment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="128" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-3" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;user should able to park any vhicl(2w, 4w)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;one user reach at entry gate (thier details shoudl be on boarded, generate slip)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;for generating slip, our platform should find the spot for vehicle . alocate it to user&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;once use exit -&amp;gt; show active slip, and pay the parking fee&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-4" value="3.a Our Platform cabilties&lt;div&gt;&amp;nbsp; &amp;nbsp; - Opeation&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; check spot is availbale in our parking area&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Onborad vehicle details, generate the slip&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mark that sport as occupied&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; at the time of exit&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; check recipiet status -&amp;gt; Active&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ask for payment (Supported Payment Tyep)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;once payment done , Released the vehicle&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; mark the spot available&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;b. sport finding strategy&lt;/div&gt;&lt;div&gt;c. payment processor&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-5" value="Parking Spot Architecure&lt;div&gt;&amp;nbsp;Floor-&amp;gt; Lot-&amp;gt; Sport&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-6" value="Sport Finding Strategy&lt;div&gt;&lt;ol&gt;&lt;li&gt;Nearest Distance -&amp;gt; user formula of Distance&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="451" y="400" width="359" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-7" value="Payment Processor&lt;br&gt;UPI, Cash, card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-8" value="Data Modeling" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-9" value="user&lt;div&gt;&lt;ol&gt;&lt;li&gt;id, PK, unique,&amp;nbsp;&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;&amp;nbsp;vehicleSportDetails&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="910" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-10" value="Vehicle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-11" value="&lt;ol&gt;&lt;li&gt;&amp;nbsp;Vehicle Type&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&amp;nbsp;vehicle number&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="940" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-12" value="VehicleSpotDetails&lt;div&gt;&lt;ol&gt;&lt;li&gt;Vehicle&lt;/li&gt;&lt;li&gt;sportdetails&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="863" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="H7kG_Ar_j59ntI5EZhEX-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="940" as="sourcePoint" />
+            <mxPoint x="380" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-14" value="SporDetails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="868" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-15" value="&lt;ol&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;floor_no&lt;/li&gt;&lt;li&gt;lot_id&lt;/li&gt;&lt;li&gt;sport_id&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="880" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="920" as="sourcePoint" />
+            <mxPoint x="860" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-18" value="we have covered onboarder details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="915" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-19" value="Entry Gate Onboard Vehicle&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="1043" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-20" value=":/api/available/spot?Filtreing option on APis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1078" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-22" value="GET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1078" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-23" value="POST : /api/onboardVehicle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1108" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-24" value="Request Payload{&lt;div&gt;name,&lt;/div&gt;&lt;div&gt;vehicle_no&lt;/div&gt;&lt;div&gt;vehicle_type&lt;/div&gt;&lt;div&gt;duration&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1070" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="H7kG_Ar_j59ntI5EZhEX-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1130" as="sourcePoint" />
+            <mxPoint x="280" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-26" value="Respose Pylaod&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vehicle_type&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;duration&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;fee&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;entry_time&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;tentative_exit_time&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;parking_detials{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;floor&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;lot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; spot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1055" width="130" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-27" value="Exist Gate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="1170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-28" value="GET :/checkstatus of slip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-29" value="Active, InActive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1198" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-31" value="POST :/ start_exit_process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7kG_Ar_j59ntI5EZhEX-32" value="&lt;ol&gt;&lt;li&gt;Redirect to payment procssor&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="191" y="1268" width="220" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
